@@ -23,17 +23,31 @@ This tutorial outlines the implementation of file share and set permissions.<br 
     - "read-access"
     - "no-access"
     - "accounting"
-<p>  
-<img src="https://github.com/AllanMontalvo/Virtualbox-Active-Directory/assets/135927674/2c6c5e6a-63a4-47e7-91db-cfbf53b65f34" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
+
+ <p>  
+<img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/01bd7c50-0526-42d8-a707-789465890512" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+ </p>
 
 **Step 2: Create Documents**
 - Create a text file for each folder.
 
+<p>
+    <img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/a885d916-e5c8-44c4-870e-ad2402524acb" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+
 **Step 3: Set Permission**
 - Set the following Folders with these permissions:
     - "write-access" - Groups: "Domain Users", Permission: "Read/Write"
+ 
+<p>
+     <img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/ad5e6efa-9d7f-4485-af80-b4e6b175bf92" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+   
     - "read-access" - Groups: "Domain Users", Permission: "Read"
+<p>
+     <img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/734b894b-ead4-45a5-89bc-412df4acca84" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+</p>
+
     - "no-access" - Groups: "Domain Admin", Permission: "Read/Write"
     - "accounting" - Groups: "Accountants", Permission: "Read/Write"
  
