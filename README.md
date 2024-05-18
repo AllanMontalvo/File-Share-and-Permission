@@ -36,20 +36,24 @@ This tutorial outlines the implementation of file share and set permissions.<br 
 </p>
 
 **Step 3: Set Permission**
+- Right-click on the folder and select “Properties”
+- Under “Sharing” tab, select Share.
+- Type the group name for the folder and then select “Add” to the group.
 - Set the following Folders with these permissions:
     - "write-access" - Groups: "Domain Users", Permission: "Read/Write"
+    - "read-access" - Groups: "Domain Users", Permission: "Read"
+    - "no-access" - Groups: "Domain Admin", Permission: "Read/Write"
  
 <p>
-     <img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/ad5e6efa-9d7f-4485-af80-b4e6b175bf92" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+    <img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/4df16bf0-dcbb-425c-8d86-48d890131ac5" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
-   
-    - "read-access" - Groups: "Domain Users", Permission: "Read"
-<p>
-     <img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/734b894b-ead4-45a5-89bc-412df4acca84" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
-</p>
+  
+ 
+  <p>
+      <img src="https://github.com/AllanMontalvo/File-Share-and-Permission/assets/135927674/20b2eb28-dd84-4d73-91c1-884de8c682d9" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+  </p>
+  
 
-    - "no-access" - Groups: "Domain Admin", Permission: "Read/Write"
-    - "accounting" - Groups: "Accountants", Permission: "Read/Write"
  
 
 <h3>User Test</h3>
