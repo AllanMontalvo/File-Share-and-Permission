@@ -137,6 +137,7 @@ In this project, you should have created a server and a client connected within 
 </p>
  
 <h2>Final Notes</h2>
+In conclusion, this project demonstrates creating shared folders and setting appropriate permissions. Working on this file-sharing project has deepened my understanding of its application in an enterprise setting. I learned how to manage access across multiple departments, ensuring users can securely access their folders. This approach is also useful for special projects requiring specific permissions for selected users. The skills and insights gained from this experience are valuable for both professional and personal file management.
 
 
 
